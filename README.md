@@ -1,20 +1,18 @@
-## Do not use. The plugin is still under development.
-
 ## Grails plugin for integrating Drools
 
 [Drools](https://www.drools.org) is a Business Rules Management System (BRMS) solution. The plugin fully supports Drools [kie-spring](https://docs.jboss.org/drools/release/6.2.0.CR4/drools-docs/html/ch.kie.spring.html) integration.
 
-The plugin has been tested  using the [sample application](https://github.com/kensiprell/grails-drools-sample) in the following environment:
+The plugin has been tested  using the [sample application](https://github.com/kensiprell/grails-drools-sample) and [test script](https://github.com/kensiprell/grails-plugin-test-script/blob/master/drools.sh) in the following environment:
 
-* Drools 6.2.0.CR4
+* Drools 6.1.0.Final
 
-* OSX 10.10
+* Grails versions 2.2.5, 2.3.9, and 2.4.4
 
-* JDK 1.7.0_71
+* OSX 10.10.1
 
-* Grails versions 2.0.4, 2.1.5, 2.2.4, 2.3.9, and 2.4.4
+* JDK 1.7.0_75
 
-If you have a question, problem, suggestion, or want to report a bug, please submit an [issue](https://github.com/kensiprell/grails-drools/issues?state=open). I will reply as soon as I can.
+If you have a question, problem, suggestion, or want to report a bug, please submit an [issue](https://jira.grails.org/browse/GPDROOLS). I will reply as soon as I can.
 
 [Release Notes](https://github.com/kensiprell/grails-drools/wiki/Release-Notes)
 
@@ -55,7 +53,7 @@ Edit your `BuildConfig.groovy`:
 
     plugins {
        // other plugins
-       compile ":drools:0.4.1"
+       compile ":drools:0.9.3"
     }
 
 ### Configuration
